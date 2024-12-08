@@ -111,21 +111,24 @@ button:hover {
 
 /* Кнопка Complete */
 .complete {
-    background-color: #4CAF50;
+    background-color: transparent;
     color: white;
 }
 
 .complete:hover {
-    background-color: #45a049;
+    transition: 0.3s ease-out;
+    background-color: #45a04975;
+    box-shadow: 0 0 5px 5px #45a04975;
 }
 
 /* Кнопка Delete */
 .delete {
-    background-color: #f44336;
+    background-color: transparent;
     color: white;
 }
 
 .delete:hover {
-    background-color: #e53935;
-    border-radius: 50vh;
+    transition: 0.3s ease-out;
+    background-color: #e5383571;
+    box-shadow: 0 0 5px 5px #e5383571;
 }
